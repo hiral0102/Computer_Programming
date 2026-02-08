@@ -4,5 +4,9 @@ This repo will consist of all the data regarding the course of a diploma in comp
 
 
 
-This includes semester-wise projects and coding assessments for all courses
+This includes semester-wise projects and coding assessments for all courses.
+
+
+
+something
 
