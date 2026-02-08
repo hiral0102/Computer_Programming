@@ -8,5 +8,3 @@ This includes semester-wise projects and coding assessments for all courses.
 
 
 
-something
-
