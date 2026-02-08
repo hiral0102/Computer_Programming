@@ -1,2 +1,8 @@
-# Computer_Programming
-This repo will consist off all the data regarding course of diploma in computer programming 
+# Computer\_Programming
+
+This repo will consist of all the data regarding the course of a diploma in computer programming
+
+
+
+This includes semester-wise projects and coding assessments
+
