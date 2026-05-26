@@ -1,0 +1,178 @@
+@relation EmployeesSalary(1)-weka.filters.unsupervised.attribute.NominalToString-C2-5-weka.filters.unsupervised.attribute.NumericToNominal-R7-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last
+
+@attribute first_name string
+@attribute last_name string
+@attribute email string
+@attribute Address string
+@attribute Country=China numeric
+@attribute Country=U.S.A. numeric
+@attribute Country=Germany numeric
+@attribute Country=Mexico numeric
+@attribute Country=Canada numeric
+@attribute Country=Japan numeric
+@attribute Branch=1 numeric
+@attribute Branch=2 numeric
+@attribute Branch=3 numeric
+@attribute Branch=4 numeric
+@attribute Branch=6 numeric
+@attribute Branch=10 numeric
+@attribute Currency=CHY numeric
+@attribute Currency=USD numeric
+@attribute Currency=EUR numeric
+@attribute Currency=MXD numeric
+@attribute Currency=INR numeric
+@attribute Currency=CAD numeric
+@attribute Salary numeric
+
+@data
+Tana,Dunne,tdunne2n@uiuc.edu,'7497 Farwell Center',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,120000
+Steven,McGrae,smcgrae11@engadget.com,'129 Clemons Center',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,49000
+Nobe,Haslen,nhaslen2p@mysql.com,'82 Division Point',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,160000
+Basile,Annis,bannis7@cornell.edu,'79 Weeping Birch Point',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,16000
+Concordia,Kohen,ckoheny@cocolog-nifty.com,'203 Northridge Circle',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,39000
+Nev,Yuryatin,nyuryatink@php.net,'65703 Ridgeview Drive',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,45000
+Starlene,Sager,ssagerz@reuters.com,'088 Brown Park',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,19000
+Curt,Medlar,cmedlar2w@addtoany.com,'1749 Lakewood Park',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Adolpho,Bourdon,abourdon1b@wikimedia.org,'2605 Lighthouse Bay Trail',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,99000
+Sonny,Trevarthen,strevarthen1t@blinklist.com,'270 Carey Junction',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,36098
+Robbin,Geleman,rgeleman2j@phpbb.com,'5138 Nova Avenue',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,680000
+Garnet,Linfoot,glinfoot2b@gov.uk,'9618 Emmet Drive',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,200000
+Derick,Chuney,dchuney1p@earthlink.net,'73099 Anderson Pass',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,29000
+Brion,Wallwood,bwallwood30@goo.ne.jp,'289 Almo Terrace',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Junie,Esmead,jesmead1g@sbwire.com,'15 Hagan Park',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,66000
+Adrea,Bravey,abravey1@1und1.de,'4621 Emmet Junction',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,72000
+Ella,McGenn,emcgennc@sourceforge.net,'41 1st Drive',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,90000
+Sherlock,Lober,slober16@tuttocitta.it,'80547 Northridge Park',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,85000
+Clarisse,Fawdrey,cfawdrey2i@smh.com.au,'78285 8th Junction',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,780000
+Trudey,Kowal,tkowal1r@liveinternet.ru,'5253 Macpherson Pass',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,39000
+Maximilian,Camies,mcamiesv@so-net.ne.jp,'7201 Cambridge Park',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,3000
+Lisbeth,Fenne,lfenne2@un.org,'0 Dahle Hill',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,20500
+Mahmud,Laurentin,mlaurentin29@bloomberg.com,'6895 Becker Court',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,450000
+Jared,Pancoust,jpancoust21@domainmarket.com,'783 Arapahoe Park',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,49000
+Tallie,Tiplady,ttiplady1s@a8.net,'85 Farmco Point',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,41068
+Neron,Pennycook,npennycook1m@infoseek.co.jp,'397 Cascade Way',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,82000
+Kendra,Gitthouse,kgitthouse1w@tuttocitta.it,'642 Waxwing Plaza',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,100000
+Urbain,Scurrey,uscurrey40@creativecommons.org,'387 Reindahl Trail',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,59000
+Desmond,Flannery,doflannery1d@imgur.com,'8 Weeping Birch Point',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,54000
+Marika,Kesper,mkesper4@digg.com,'86516 Stephen Street',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,32000
+Maressa,Commucci,mcommucci3e@techcrunch.com,'3 Prairieview Alley',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,30
+Rickie,'Lates Ken',rlatesken@ameblo.jp,'823 Mockingbird Pass',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,60000
+Aigneis,Rangle,arangle2e@webs.com,'71505 Green Ridge Alley',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,350000
+Kara,Scurrer,kscurrer3l@last.fm,'99 Merrick Crossing',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,23000
+Poul,Paulack,ppaulack22@facebook.com,'5183 Onsgard Point',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,52000
+Aurel,Bertelmot,abertelmots@live.com,'57 Eagan Park',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,19567
+Asa,Aleksandrev,aaleksandrev1h@msu.edu,'001 Green Street',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,42000
+Robinetta,Narracott,rnarracott2u@usgs.gov,'67124 Laurel Road',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Maddi,Peres,mperes3w@comcast.net,'2 Crownhardt Street',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,24500
+Falkner,Horlick,fhorlick3b@yandex.ru,'0245 Ruskin Trail',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,29000
+Burton,Dudden,bdudden39@japanpost.jp,'050 Nova Court',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,44444
+Rodge,Sarfass,rsarfass3d@wired.com,'82 7th Hill',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,15999
+Alison,Lampert,alamperte@list-manage.com,'78 Express Plaza',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,27000
+Hiralben,Prajapati,Hiralben_Prajapati@test.com,'412 Hiralben Street',0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,19844
+Yulma,Peyntue,ypeyntue26@mayoclinic.com,'3257 American Crossing',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Reade,McCumesky,rmccumesky2y@list-manage.com,'6766 Schmedeman Road',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Velma,Andraud,vandraud1x@issuu.com,'58 Harper Pass',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,96300
+Sloane,Andrzejak,sandrzejak3t@netlog.com,'44 Troy Crossing',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,40500
+Carlye,Blunsen,cblunsen1o@admin.ch,'8131 Stephen Park',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,59500
+Darcy,Addie,daddie1k@jalbum.net,'836 Marquette Pass',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,80500999
+Cissy,Duley,cduley38@fotki.com,'198 Westerfield Way',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,18000
+Ingmar,Durward,idurwardd@jimdo.com,'38 Badeau Road',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,30000
+Brittan,Timson,btimson32@yellowbook.com,'9 Crownhardt Way',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Malvin,Houdmont,mhoudmont2k@google.it,'654 7th Drive',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,190000
+Murdock,Foucher,mfoucher3i@reverbnation.com,'84969 Waubesa Place',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,39000
+Alberik,Statton,astatton2a@stanford.edu,'822 Elka Crossing',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,190000
+Lemmie,Nitti,lnitti0@wordpress.org,'20 Butterfield Junction',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,67000
+Trenton,Keepence,tkeepence1y@skype.com,'27518 Merry Place',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,49000
+Berny,Peschka,bpeschka2l@webs.com,'8 Ridgeway Alley',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,500000
+Bibbye,Fallis,bfallis1a@blogspot.com,'05 Kedzie Avenue',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,89000
+Aymer,Kilsby,akilsbya@scribd.com,'3 Washington Hill',0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,44000
+Lorrie,Ogbourne,logbourne3r@time.com,'52 Grover Alley',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,31000
+Zora,Brewin,zbrewin2h@netvibes.com,'0281 Hintze Plaza',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,320000
+Zenia,Aries,zaries31@ehow.com,'67 Ridgeview Avenue',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Matilde,Simmell,msimmell3f@seattletimes.com,'08 Messerschmidt Street',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,25000
+Gusti,Betz,gbetz45@reverbnation.com,'24821 Amoth Circle',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,17800
+Cal,Pettendrich,cpettendrich36@multiply.com,'11 Surrey Drive',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,34000
+Gilemette,MacKissack,gmackissack20@zdnet.com,'6899 Weeping Birch Park',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,60000
+Lazaro,Mudle,lmudle2t@dion.ne.jp,'12744 Pierstorff Trail',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Arthur,Risman,arisman19@globo.com,'6 Northwestern Junction',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,72000
+Chelsie,Mulles,cmulles3x@amazon.co.uk,'8 Talmadge Circle',0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,36000
+Sibby,Sheeran,ssheeran3z@cam.ac.uk,'87502 Moland Hill',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,75000
+Kerrie,Middlehurst,kmiddlehurstl@bigcartel.com,'59845 Green Ridge Way',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,86000
+Temp,Geratt,tgerattb@cyberchimps.com,'262 Bonner Plaza',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,100000
+Lenora,Beggan,lbeggan1i@howstuffworks.com,'36266 Clarendon Alley',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,37028
+Micheil,Mendez,mmendez2q@earthlink.net,'6423 Sauthoff Alley',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,140000
+Brinn,Barracks,bbarracks1q@examiner.com,'9782 Dovetail Park',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,70000
+Johan,Cherrie,jcherriep@twitter.com,'616 Barby Pass',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,22000
+Shell,Dadge,sdadge3h@ezinearticles.com,'70 Arrowood Way',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,54000
+Cherise,Wellman,cwellman3j@ucsd.edu,'03592 Schiller Park',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,24500
+Elsworth,Skells,eskells35@spotify.com,'54486 Carberry Park',0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,110000
+Marris,Reace,mreace15@statcounter.com,'43753 Forest Run Lane',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,33163
+Kathie,Berndtsson,kberndtsson5@usnews.com,'05802 Meadow Ridge Alley',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,21000
+Tina,Savage,tsavage2z@netlog.com,'65079 Loomis Pass',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Hobart,Truscott,htruscott12@hao123.com,'5 Loftsgordon Drive',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,44785
+Melantha,Butland,mbutland10@theatlantic.com,'28 School Way',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,100000
+Camile,Hegg,chegg3s@deliciousdays.com,'382 Buell Lane',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,34000
+Richmond,Pretsell,rpretsell1l@fc2.com,'97908 Canary Trail',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,51600
+Obed,Yesinov,oyesinov2f@adobe.com,'606 Farragut Hill',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,890000
+Marjie,Phython,mphythonu@macromedia.com,'24819 Carey Place',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,35000
+Jameson,Lerigo,jlerigo2x@comsenz.com,'26 Graedel Street',1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,150000
+Natty,Visick,nvisick1u@lulu.com,'2 Merry Avenue',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,95000
+Clarissa,Munning,cmunning27@google.com.au,'98855 Carpenter Junction',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,360000
+Siegfried,Ingledow,singledown@lulu.com,'4792 Victoria Trail',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,30000
+Boigie,Daouze,bdaouze3n@livejournal.com,'01783 Veith Trail',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,15000
+Marline,Goatman,mgoatman28@wikia.com,'936 Canary Way',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Darryl,Hanscombe,dhanscombeq@theglobeandmail.com,'4 Old Shore Lane',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,50000
+Muffin,Balsellie,mbalsellie37@indiegogo.com,'0589 Ludington Crossing',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,30000
+Fawn,Onge,fonge6@deviantart.com,'3966 Banding Park',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,80000
+Gaspard,Benardet,gbenardet41@alexa.com,'21 Annamark Hill',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,40000
+Misha,Tunna,mtunnaj@dailymotion.com,'15 Kipling Drive',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,42000999
+Corbett,Cardo,ccardow@cargocollective.com,'827 Havey Center',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,62000
+Ingeberg,Scholcroft,ischolcroft33@rakuten.co.jp,'76 Red Cloud Plaza',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Sayre,Joust,sjoust25@tamu.edu,'025 Schiller Drive',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,240000
+Seth,Gobbett,sgobbett9@ezinearticles.com,'00 Stephen Crossing',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,24000
+Lamar,Smither,lsmither3m@cpanel.net,'9 Arizona Park',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,27500
+Celeste,Tabbitt,ctabbitt2o@privacy.gov.au,'10 Moland Circle',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,190000
+Carlie,Matschke,cmatschkeg@yellowbook.com,'34 Gina Place',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,18000
+Humberto,Stranieri,hstranieri1j@bbb.org,'6 Surrey Parkway',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,46000
+Carmine,Juleff,cjuleff3o@amazon.com,'066 Dahle Pass',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,18000
+Cherise,Wison,cwison2v@php.net,'7984 Coleman Park',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Helyn,Dassindale,hdassindale3v@google.ru,'84 Crest Line Parkway',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,28000
+Gabriel,Paradise,gparadiseh@wordpress.com,'852 Pleasure Hill',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,56000
+Tracey,Dunster,tdunster3y@surveymonkey.com,'619 Sunfield Hill',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,46099
+Vina,McRobert,vmcrobert2m@unicef.org,'641 Reindahl Center',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,240000
+Fabio,Stopper,fstopper3q@weather.com,'39393 Superior Plaza',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,51000
+Neron,Menendez,nmenendez1v@networkadvertising.org,'72 Knutson Point',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,44638
+Reinwald,Taudevin,rtaudevin3a@mayoclinic.com,'402 Continental Hill',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,70000
+Tallulah,Ferronet,tferronet2d@fotki.com,'407 Darwin Crossing',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,600000
+Isadore,Morville,imorvillex@vimeo.com,'8716 Canary Parkway',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,31000
+Garvey,MacCosto,gmaccosto3c@pbs.org,'61 Springview Pass',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,45800
+Amalle,Celes,aceles2r@hc360.com,'7944 Annamark Court',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150500
+Hailey,Edghinn,hedghinn17@acquirethisname.com,'05 Namekagon Parkway',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,45000
+Abe,Ghelardoni,aghelardoni42@prweb.com,'47 Spohn Drive',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,36400
+Karyn,Mallindine,kmallindine1c@statcounter.com,'16334 Michigan Circle',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,89000
+Sutherland,Arro,sarro8@admin.ch,'9950 Pawling Alley',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,50056
+Chloris,Hebborne,chebbornem@hexun.com,'0582 Myrtle Road',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,36000
+Lolita,Fernihough,lfernihough14@studiopress.com,'98 Sachs Parkway',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,100000
+Egor,Trudgeon,etrudgeon1n@tumblr.com,'0475 Luster Trail',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,70000
+Lincoln,Augustine,laugustine2s@skyrock.com,'2946 Manley Court',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Nissie,Burney,nburneyr@paginegialle.it,'34 Dovetail Point',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,26500
+Darby,Mandell,dmandell1z@ovh.net,'922 Sachs Avenue',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,38000
+Fonzie,Rasell,frasell44@eepurl.com,'991 Scoville Trail',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,46888
+Lavinia,Thorneloe,lthorneloe1f@ameblo.jp,'09 Huxley Pass',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,95000
+Sylvia,Holborn,sholborn13@paypal.com,'83094 Packers Alley',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,69000
+Dur,Atlee,datlee3k@hugedomains.com,'39084 Thackeray Center',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,46000
+Cesaro,Kinnock,ckinnock18@liveinternet.ru,'518 Center Way',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,50000
+Clarette,Headford,cheadford23@flickr.com,'674 International Plaza',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,70000
+Wittie,Guarin,wguarint@vkontakte.ru,'3 Graceland Hill',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,39200
+Bel,Hodgin,bhodgin2g@msu.edu,'60 Bellgrove Court',0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,400000
+Katina,Borel,kborelo@github.io,'629 Hansons Terrace',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,68000
+Stuart,Dello,sdeldello3u@msu.edu,'8669 Warner Park',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,31000
+Rosalia,Boseley,rboseleyi@sfgate.com,'97917 Brentwood Alley',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,60000
+Feodor,Tine,ftine1e@flickr.com,'04 Moland Point',0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,32000
+Olivie,Knightly,oknightly34@godaddy.com,'04375 Bunting Pass',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,150000
+Saundra,Morphey,smorphey43@diigo.com,'63 Red Cloud Parkway',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,28000
+Nettle,Gleadhall,ngleadhall3@umn.edu,'511 Loftsgordon Plaza',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,29000
+Aurore,Grece,agrece24@technorati.com,'093 Stuart Place',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,180000
+Georgine,Racher,gracherf@webeden.co.uk,'68311 Lake View Park',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,42500
+Nelson,McRinn,nmcrinn3p@economist.com,'56053 Buell Terrace',0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,19999
+Briana,Catchpole,bcatchpole2c@over-blog.com,'19005 Bluejay Park',1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,900000
